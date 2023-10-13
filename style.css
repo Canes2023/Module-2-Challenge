@@ -1,0 +1,159 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #292b2c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about, .projects, .contact, .surf-report, .led-wall, .calculator, .pastel-puzzles, .run-buddy {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.project-box {
+    background-color: #f7f7f7;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.projects .project img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #292b2c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Additional CSS for layout changes */
+.surf-report, .led-wall, .calculator, .pastel-puzzles, .run-buddy {
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+.surf-report, .led-wall, .calculator {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+}
+.pastel-puzzles, .run-buddy {
+    clear: both;
+    width: 32%;
+}
+
+/* Add this block to your existing CSS */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about, .projects, .contact, .surf-report, .led-wall, .calculator, .pastel-puzzles, .run-buddy {
+    text-align: left;
+}
+
+.surf-report, .led-wall, .calculator, .pastel-puzzles, .run-buddy {
+    clear: none;
+    float: none;
+    width: 100%;
+    margin-right: 0;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details p {
+    margin: 0 10px;
+}
+
+/* Add this block to your existing CSS */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust this value as needed */
+}
+
+.navigation li {
+    margin: 0 10px;
+}
+
+.about,
+.projects,
+.contact,
+.surf-report,
+.led-wall,
+.calculator,
+.pastel-puzzles,
+.run-buddy {
+    text-align: left;
+}
+
+.surf-report, .led-wall, .calculator, .pastel-puzzles, .run-buddy {
+    clear: none;
+    float: none;
+    width: 100%;
+    margin-right: 0;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details p {
+    margin: 0 10px;
+}
+
+
